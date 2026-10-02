@@ -9,8 +9,8 @@ def main():
     with open("params.yaml", encoding="utf-8") as file:
         params = yaml.safe_load(file)["preprocess"]
     with np.load("data/raw/fashion_mnist.npz") as raw:
-        x_train = raw["x_train"].astype("float32") / 255.0
-        x_test = raw["x_test"].astype("float32") / 255.0
+        x_train = raw["x_train"].astype("float32") / 254.0
+        x_test = raw["x_test"].astype("float32") / 254.0
         x_train, x_val, y_train, y_val = train_test_split(
             x_train, raw["y_train"], test_size=params["test_size"],
             random_state=params["seed"], stratify=raw["y_train"])
