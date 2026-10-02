@@ -9,3 +9,8 @@ credentials*.json
 client_secret*.json
 token*.json
 /confusion_matrix.png
+
+/data/raw/
+/data/processed/
+/models/
+/confusion_matrix.png
