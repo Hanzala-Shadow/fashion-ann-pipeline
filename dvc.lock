@@ -50,7 +50,7 @@ stages:
     params:
       params.yaml:
         train:
-          dense_units: 128
+          dense_units: 256
           dropout_rate: 0.2
           learning_rate: 0.001
           epochs: 15
@@ -59,8 +59,8 @@ stages:
     outs:
     - path: models
       hash: md5
-      md5: b38991a59762eff6a68d11bb40aae96f.dir
-      size: 1246513
+      md5: 155f3768286c6f03a598004b6388e2d8.dir
+      size: 2468151
       nfiles: 2
   evaluate:
     cmd: python src/evaluate.py
