@@ -20,8 +20,9 @@ configured locally before dvc pull or dvc push can authenticate. Follow:
 https://doc.dvc.org/user-guide/data-management/remote-storage/google-drive
 
 Do not commit OAuth credentials. Use dvc remote modify --local for credentials.
-The cached artifacts were uploaded through Drive in DVC's files/md5 layout;
-a successful command-line push and pull have not yet been verified.
+Windows verification completed on 3 October 2026 (Asia/Karachi) using a custom
+OAuth client. dvc fetch --all-commits retrieved 16 files, dvc checkout restored
+the outputs, and dvc push --all-commits returned Everything is up to date.
 
 Measured test accuracy: v1 (128 units) 87.84%; v2 (256 units) 87.87%.
 Both exceed the required 85%. Final results are in metrics.json.
