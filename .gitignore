@@ -16,3 +16,5 @@ token*.json
 /confusion_matrix.png
 
 /data/processed/
+
+.dvc/tmp/
