@@ -14,3 +14,5 @@ token*.json
 /data/processed/
 /models/
 /confusion_matrix.png
+
+/data/processed/
