@@ -8,5 +8,4 @@ __pycache__/
 credentials*.json
 client_secret*.json
 token*.json
-/models
 /confusion_matrix.png
